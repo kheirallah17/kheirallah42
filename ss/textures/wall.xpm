@@ -1,0 +1,42 @@
+/* XPM */
+static char *wall_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"30 30 6 1",
+"  c #1A1A1A",   /* shadow */
+". c #2E2E5F",   /* dark stone */
+"X c #4A4A8B",   /* base stone */
+"o c #6A6AB3",   /* light stone */
+"O c #8F8FFF",   /* highlight */
+"$ c None",
+/* pixels */
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$XoOOoXoOOoXoOOoXoOOoXoOOo$$$",
+"$$$XXoXXoXXoXXoXXoXXoXXoXXo$$$",
+"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+};

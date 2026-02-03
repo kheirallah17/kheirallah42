@@ -1,0 +1,43 @@
+/* XPM */
+static char *pack_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"30 30 6 1",
+"  c None",
+". c #1E1E3A",   /* dark border */
+"X c #3A3A6A",   /* container */
+"o c #5A5AB3",   /* core */
+"O c #8A8AFF",   /* glow */
+"+ c #C9C9FF",   /* highlight */
+/* pixels */
+"                              ",
+"                              ",
+"      ................        ",
+"      .XXXXXXXXXXXXXX.        ",
+"      .XooooooooooooX.        ",
+"      .XooooooooooooX.        ",
+"      .XoooOOOOOOoooX.        ",
+"      .XooO++++++OooX.        ",
+"      .XooO++++++OooX.        ",
+"      .XoooOOOOOOoooX.        ",
+"      .XooooooooooooX.        ",
+"      .XooooooooooooX.        ",
+"      .XXXXXXXXXXXXXX.        ",
+"      ................        ",
+"                              ",
+"            OOOO              ",
+"          OO++++OO            ",
+"         O++++++++O           ",
+"         O++++++++O           ",
+"          OO++++OO            ",
+"            OOOO              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              ",
+"                              "
+};

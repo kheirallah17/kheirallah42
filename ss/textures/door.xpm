@@ -1,0 +1,42 @@
+/* XPM */
+static char *door_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"30 30 6 1",
+"  c None",
+". c #1A1A3A",   /* outer shadow */
+"X c #3A3A6A",   /* frame */
+"o c #5A5AB3",   /* inner portal */
+"O c #8A8AFF",   /* glow */
+"+ c #C9C9FF",   /* core */
+/* pixels */
+"                              ",
+"          ..........          ",
+"        ..XXXXXXXXXX..        ",
+"       .XXooooooooooXX.       ",
+"      .XXooooooooooooXX.      ",
+"      .XooooooooooooooX.      ",
+"      .XooOOOOOOOOOOooX.      ",
+"      .XooOO++++++++OOooX.     ",
+"      .XooOO++++++++OOooX.     ",
+"      .XooOOOOOOOOOOooX.      ",
+"      .XooooooooooooooX.      ",
+"      .XXooooooooooooXX.      ",
+"       .XXooooooooooXX.       ",
+"        ..XXXXXXXXXX..        ",
+"          ..........          ",
+"                              ",
+"          ..........          ",
+"        ..XXXXXXXXXX..        ",
+"       .XXooooooooooXX.       ",
+"      .XXooooooooooooXX.      ",
+"      .XooooooooooooooX.      ",
+"      .XooOOOOOOOOOOooX.      ",
+"      .XooOO++++++++OOooX.     ",
+"      .XooOO++++++++OOooX.     ",
+"      .XooOOOOOOOOOOooX.      ",
+"      .XooooooooooooooX.      ",
+"      .XXooooooooooooXX.      ",
+"       .XXooooooooooXX.       ",
+"        ..XXXXXXXXXX..        ",
+"          ..........          "
+};

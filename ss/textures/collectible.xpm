@@ -1,0 +1,28 @@
+/* XPM */
+static char *collectible_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c None",
+". c #3A2A00",   /* shadow */
+"X c #8A6A00",   /* gold base */
+"o c #D4AA00",   /* light gold */
+"O c #FFD966",   /* highlight */
+"+ c #FFF2B0",   /* shine */
+/* pixels */
+"                ",
+"       ..       ",
+"      .XX.      ",
+"     .XooX.     ",
+"    .XoOOoX.    ",
+"   .XoO++OoX.   ",
+"  .XoO++++OoX.  ",
+"   .XoO++OoX.   ",
+"    .XoOOoX.    ",
+"     .XooX.     ",
+"      .XX.      ",
+"       ..       ",
+"                ",
+"                ",
+"                ",
+"                "
+};
