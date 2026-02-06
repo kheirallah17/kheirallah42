@@ -1,29 +1,29 @@
 #include "solong.h"
 
-void main_helper(char *map_path)
+void main_helper(char *mappath)
 {
     t_game	*data;
 	int		i;
 	int		y;
 
-    data = create_window(mappath);
+    data = create_game(mappath);
 	if (!data)
 	{
 		write(2, "Error\nFailed to create window\n", 31);
-		return (0);
+		return ;
 	}
-	fill_player_pos_in_t_data1(data, mappath);
+	fillpos_player(data, mappath);
 	data->countc = 0;
 	data->count_moves = 0;	
 	data->countoc = count_c(data->map, mappath);
-	i = countlines(mappath);
+	i = countmaplines(mappath);
 	y = getlinesize(mappath);
 	data->lines = i;
 	data->linesize = y;
 	mlx_hook(data->win, KeyPress, KeyPressMask, &on_keypress, data);
 	mlx_hook(data->win, DestroyNotify, StructureNotifyMask,
 		&on_destroy, data);
-	maprun(data);
+	mapgo(data);
 	mlx_loop(data->mlx);
 }
 

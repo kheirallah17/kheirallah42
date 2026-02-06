@@ -1,6 +1,7 @@
 #ifndef SOLONG_H
 # define SOLONG_H
 # include "minilibx-linux/mlx.h"
+# include "libft/libft.h"
 # include <X11/Xlib.h>
 # include <X11/X.h>
 # include <X11/keysym.h>
@@ -57,11 +58,24 @@ void	check_valid_path_to_coin(char **tab, t_playerpos size,
 			t_playerpos cur, t_countcheck *p);
 void	check_valid_path_to_exit(char **tab, t_playerpos size,
 			t_playerpos cur, t_countcheck *p);
+void	on1_helper(t_game *data);
+void	on2_helper(t_game *data);
+void	on3_helper(t_game *data);
+void	on4_helper(t_game *data);
+void	fillpos_player(t_game *data, char *mappath);
 int check_pande(char **map, char *mappath);
 int count_c(char **map, char *mappath);
 int check_valid_chars(char **map, char *mappath);
+int countmaplines(char *mappath);
+int getlinesize(char *mappath);
+int	mapgo(t_game *dat);
+t_playerpos findpos(char **map, char *mappath);
+t_game	*create_game(char *mappath);
 int checkc(char **map, char *mappath);
 void freemen(char **map, char *mappath);
 void free2(char *str2, char *str1);
 void free_close(char *str, int fd);
+char **maptoarray(char *mappath);
+char	*get_next(int fd);
+int destroys(t_game *data);
 # endif
